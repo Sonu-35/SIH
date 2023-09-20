@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatriva</title>
+    <link rel="icon" href="yatriva.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- javascript for map -->
+
+    <script
+     type = "text/javascript" src="https://www.google.com/jsapi">
+    </script>
+
+</head>
+<body>
+    <!-- navbar -->
+
+    <div class="header">
+        <div class="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Yatriva</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">States</a>
+                      <a class="nav-link" href="#">Image Gallery</a>
+                      <a class="nav-link disabled" aria-disabled="true">Facts</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+    <!-- map -->
+
+    <div class="map">
+        <main id="main">
+             <div align="center">
+                <div id="visualization"></div>
+             </div>
+             <script src="map.js">
+             </script>
+        </main>
+    </div>
+
+    <!-- photo-grid -->
+
+    <div class="photogrid">
+        <div class="row">
+            <div class="column">
+              <!-- images add kr le -->
+            </div>
+            <div class="column">
+              <!-- images add kr le -->
+            </div>
+            <div class="column">
+             <!-- images add kr le -->
+            </div>
+            <div class="column">
+              <!-- images add kr le -->
+            </div>
+          </div>
+    </div>
+
+    <!-- buttons -->
+
+    <button onclick="one()">1</button>
+    <button onclick="two()">2</button>
+    <button onclick="four()">4</button>
+
+    <!-- calender -->
+    <div class="month">
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li>August<br><span style="font-size:18px">2021</span></li>
+        </ul>
+      </div>
+      
+      <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+      </ul>
+      
+      <ul class="days">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li><span class="active">10</span></li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li><span class="active">20</span></li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li><span class="active">30</span></li>
+      </ul>
+
+   
+    <!-- javascript for photo grid -->
+    <script src="photo-grid.js">    </script>
+
+</div>
+</body>
+</html>
